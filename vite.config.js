@@ -1,7 +1,9 @@
+
 import react from '@vitejs/plugin-react'
 import { defineConfig } from 'vite'
 
-// https://vite.dev/config/
+// GitHub Pages configuration
 export default defineConfig({
   plugins: [react()],
+  base: '/mumbai-urban-heat/',
 })
